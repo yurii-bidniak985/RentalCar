@@ -1,0 +1,194 @@
+/* [project]/Desktop/project/RentalCar/components/Filtre/Filtre.module.css [app-client] (css) */
+.Filtre-module__Po7iVG__filterForm {
+  justify-content: center;
+  align-items: flex-end;
+  gap: 16px;
+  margin-top: 84px;
+  margin-bottom: 56px;
+  display: flex;
+}
+
+.Filtre-module__Po7iVG__label {
+  font-family: var(--font-family);
+  color: var(--gray);
+  margin-bottom: 8px;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 133%;
+  display: block;
+}
+
+.Filtre-module__Po7iVG__mileageInputs {
+  display: flex;
+}
+
+.Filtre-module__Po7iVG__mileageWrapper {
+  align-items: center;
+  display: flex;
+  position: relative;
+}
+
+.Filtre-module__Po7iVG__inputLabel {
+  color: #121417;
+  pointer-events: none;
+  font-size: 18px;
+  position: absolute;
+  left: 18px;
+}
+
+.Filtre-module__Po7iVG__inputLeft, .Filtre-module__Po7iVG__inputRight {
+  color: #121417;
+  background-color: #f7f7fb;
+  border: none;
+  outline: none;
+  width: 160px;
+  height: 48px;
+  padding-left: 70px;
+  font-size: 18px;
+}
+
+.Filtre-module__Po7iVG__inputLeft {
+  border-right: 1px solid #8a8a8933;
+  border-radius: 14px 0 0 14px;
+}
+
+.Filtre-module__Po7iVG__inputRight {
+  border-radius: 0 14px 14px 0;
+}
+
+.Filtre-module__Po7iVG__select {
+  background: var(--inputs);
+  border-radius: 12px;
+  width: 204px;
+  height: 44px;
+  padding: 12px 16px;
+}
+
+.Filtre-module__Po7iVG__searchButton {
+  background: var(--button);
+  width: 156px;
+  height: 48px;
+  font-family: var(--font-family);
+  color: var(--white);
+  border-radius: 12px;
+  padding: 12px 51px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 125%;
+  transition: background .2s;
+}
+
+.Filtre-module__Po7iVG__searchButton:hover {
+  background-color: #0b44cd;
+}
+
+/* [project]/Desktop/project/RentalCar/components/CarCard/CarCard.module.css [app-client] (css) */
+.CarCard-module__AvzbIa__card {
+  flex-direction: column;
+  width: 276px;
+  height: 424px;
+  margin-bottom: 48px;
+  display: flex;
+}
+
+.CarCard-module__AvzbIa__thumb {
+  background-color: #f3f3f2;
+  border-radius: 14px;
+  width: 100%;
+  height: 268px;
+  margin-bottom: 14px;
+  position: relative;
+  overflow: hidden;
+}
+
+.CarCard-module__AvzbIa__image {
+  object-fit: cover;
+}
+
+.CarCard-module__AvzbIa__content {
+  flex-direction: column;
+  flex-grow: 1;
+  display: flex;
+}
+
+.CarCard-module__AvzbIa__header {
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+  display: flex;
+}
+
+.CarCard-module__AvzbIa__title {
+  color: var(--main);
+  margin: 0;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 125%;
+}
+
+.CarCard-module__AvzbIa__accent {
+  color: var(--button);
+}
+
+.CarCard-module__AvzbIa__price {
+  color: #121417;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.CarCard-module__AvzbIa__tags {
+  color: #12141780;
+  flex-wrap: wrap;
+  gap: 4px 12px;
+  height: 40px;
+  margin-bottom: 28px;
+  font-size: 12px;
+  line-height: 133%;
+  display: flex;
+}
+
+.CarCard-module__AvzbIa__tags span {
+  position: relative;
+}
+
+.CarCard-module__AvzbIa__tags span:not(:last-child):after {
+  content: "";
+  background-color: #1214171a;
+  width: 1px;
+  height: 12px;
+  position: absolute;
+  top: 2px;
+  right: -7px;
+}
+
+.CarCard-module__AvzbIa__btn {
+  color: #fff;
+  cursor: pointer;
+  background-color: #3470ff;
+  border: none;
+  border-radius: 12px;
+  width: 100%;
+  padding: 12px 0;
+  font-size: 14px;
+  font-weight: 600;
+  transition: background-color .2s;
+}
+
+.CarCard-module__AvzbIa__btn:hover {
+  background-color: #0b44cd;
+}
+
+/* [project]/Desktop/project/RentalCar/app/catalog/Catalog.module.css [app-client] (css) */
+.Catalog-module__KhAaVa__container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 120px;
+}
+
+.Catalog-module__KhAaVa__grid {
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 24px;
+  display: grid;
+}
+
+/*# sourceMappingURL=Desktop_project_RentalCar_453e3f4a._.css.map*/

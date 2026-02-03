@@ -1,0 +1,98 @@
+/* [project]/Desktop/project/RentalCar/app/globals.css [app-client] (css) */
+:root {
+  --main: #101828;
+  --gray: #8d929a;
+  --gray-light: #dadde1;
+  --badges: #f2f4f7;
+  --inputs: #f7f7f7;
+  --white: #fff;
+  --button: #3470ff;
+  --button-hover: #0b44cd;
+  --font-family: "Manrope", sans-serif;
+  --second-family: "Inter", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: #fff;
+  background-color: #fff;
+  margin: 0 auto;
+  font-family: Inter, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: inherit;
+  font-size: inherit;
+  margin: 0;
+}
+
+link {
+  color: #fff;
+  margin: 0 auto;
+  text-decoration: none;
+}
+
+p {
+  font-weight: inherit;
+  font-size: inherit;
+  margin: 0;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+}
+
+ul, li {
+  margin: 0;
+  list-style: none;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 120px;
+}
+
+/* [project]/Desktop/project/RentalCar/components/Header/Header.module.css [app-client] (css) */
+.Header-module__ru4BMq__header {
+  background: #dadde1;
+  border-bottom: 1px solid #dadde1;
+  height: 68px;
+  padding: 24px 120px;
+}
+
+.Header-module__ru4BMq__headerSection {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+
+.Header-module__ru4BMq__navList {
+  align-items: center;
+  gap: 32px;
+  display: flex;
+}
+
+.Header-module__ru4BMq__navLink {
+  font-family: var(--font-family);
+  text-align: center;
+  color: var(--main);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 125%;
+  text-decoration: none;
+  list-style: none;
+  transition: color .2s;
+}
+
+.Header-module__ru4BMq__navLink:hover {
+  color: var(--button-hover);
+}
+
+/*# sourceMappingURL=Desktop_project_RentalCar_36603c44._.css.map*/

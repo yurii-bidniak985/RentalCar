@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/Desktop/project/RentalCar/app/catalog/Catalog.module.css"],"sourcesContent":[".container {\n  max-width: 1440px;\n  margin: 0 auto;\n  padding: 0 120px;\n}\n\n.grid {\n  display: grid;\n  grid-template-columns: repeat(4, 1fr);\n  column-gap: 24px;\n}\n"],"names":[],"mappings":"AAAA;;;;;;AAMA"}}]
+}

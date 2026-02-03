@@ -1,0 +1,33 @@
+.header {
+  background: #dadde1;
+  border-bottom: 1px solid #dadde1;
+  padding: 24px 120px;
+  height: 68px;
+}
+
+.headerSection {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navList {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+.navLink {
+  transition: color 0.2s;
+  list-style: none;
+  text-decoration: none;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 125%;
+  text-align: center;
+  color: var(--main);
+  &:hover {
+    color: var(--button-hover);
+  }
+}

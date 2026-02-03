@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/Desktop/project/RentalCar/components/Header/Header.module.css"],"sourcesContent":[".header {\n  background: #dadde1;\n  border-bottom: 1px solid #dadde1;\n  padding: 24px 120px;\n  height: 68px;\n}\n\n.headerSection {\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n}\n\n.navList {\n  display: flex;\n  align-items: center;\n  gap: 32px;\n}\n\n.navLink {\n  transition: color 0.2s;\n  list-style: none;\n  text-decoration: none;\n  font-family: var(--font-family);\n  font-weight: 500;\n  font-size: 16px;\n  line-height: 125%;\n  text-align: center;\n  color: var(--main);\n  &:hover {\n    color: var(--button-hover);\n  }\n}\n"],"names":[],"mappings":"AAAA;;;;;;;AAOA;;;;;;AAMA;;;;;;AAMA;;;;;;;;;;;;AAUE"}}]
+}
