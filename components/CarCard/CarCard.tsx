@@ -2,6 +2,7 @@ import Image from "next/image";
 import { Car } from "@/types/cars";
 import css from "./CarCard.module.css";
 import { useState } from "react";
+import Link from "next/link";
 
 interface CarCardProps {
   car: Car;
@@ -46,7 +47,6 @@ export default function CarCard({ car }: CarCardProps) {
         >
           {isFavorite ? <LikeSvgActive /> : <LikeSvg />}
         </button>
-        
       </div>
 
       <div className={css.content}>
@@ -66,8 +66,9 @@ export default function CarCard({ car }: CarCardProps) {
           <span>{car.mileage.toLocaleString()} km</span>
           <span>{car.accessories[0]}</span>
         </div>
-
-        <button className={css.btn}>Learn more</button>
+        <Link href={`/catalog/${car.id}`} className={css.learnMoreBtn}>
+          <button className={css.btn}>Read more</button>
+        </Link>
       </div>
     </li>
   );

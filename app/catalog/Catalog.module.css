@@ -9,3 +9,31 @@
   grid-template-columns: repeat(4, 1fr);
   column-gap: 24px;
 }
+
+.loadMore {
+  display: block;
+  margin: 15px auto 124px auto;
+  background-color: transparent;
+  text-decoration: none;
+  cursor: pointer;
+  transition: color 0.2s;
+  border: 1px solid var(--button);
+  border-radius: 12px;
+  padding: 12px 51px;
+  height: 44px;
+
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 125%;
+  color: black;
+}
+
+.loadMore:hover {
+  color: #0b44cd;
+}
+
+.loadMore:disabled {
+  color: #8a8a8a;
+  cursor: not-allowed;
+}
