@@ -1,15 +1,33 @@
 import Image from "next/image";
 import { Car } from "@/types/cars";
 import css from "./CarCard.module.css";
+import { useState } from "react";
 
 interface CarCardProps {
   car: Car;
 }
 
+const LikeSvg = () => (
+  <svg width={16} height={16}>
+    <use href="/logoSvg.svg#Like"></use>
+  </svg>
+);
+
+const LikeSvgActive = () => (
+  <svg width={16} height={16}>
+    <use href="/logoSvg.svg#Like-blue"></use>
+  </svg>
+);
+
 export default function CarCard({ car }: CarCardProps) {
+  const [isFavorite, setIsFavorite] = useState(false);
   const addressParts = car.address.split(",");
   const city = addressParts[1]?.trim();
   const country = addressParts[2]?.trim();
+
+  const toggleFavorite = () => {
+    setIsFavorite((prev) => !prev);
+  };
 
   return (
     <li className={css.card}>
@@ -20,6 +38,15 @@ export default function CarCard({ car }: CarCardProps) {
           fill
           className={css.image}
         />
+        <button
+          type="button"
+          className={css.favorite}
+          aria-label="Add to favorites"
+          onClick={toggleFavorite}
+        >
+          {isFavorite ? <LikeSvgActive /> : <LikeSvg />}
+        </button>
+        
       </div>
 
       <div className={css.content}>

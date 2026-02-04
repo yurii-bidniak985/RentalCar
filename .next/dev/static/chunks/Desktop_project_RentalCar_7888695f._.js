@@ -551,6 +551,7 @@ __turbopack_context__.v({
   "btn": "CarCard-module__AvzbIa__btn",
   "card": "CarCard-module__AvzbIa__card",
   "content": "CarCard-module__AvzbIa__content",
+  "favorite": "CarCard-module__AvzbIa__favorite",
   "header": "CarCard-module__AvzbIa__header",
   "image": "CarCard-module__AvzbIa__image",
   "price": "CarCard-module__AvzbIa__price",
@@ -569,31 +570,92 @@ __turbopack_context__.s([
 var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$project$2f$RentalCar$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Desktop/project/RentalCar/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$project$2f$RentalCar$2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Desktop/project/RentalCar/node_modules/next/image.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$project$2f$RentalCar$2f$components$2f$CarCard$2f$CarCard$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__ = __turbopack_context__.i("[project]/Desktop/project/RentalCar/components/CarCard/CarCard.module.css [app-client] (css module)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$project$2f$RentalCar$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Desktop/project/RentalCar/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
+;
+var _s = __turbopack_context__.k.signature();
 ;
 ;
 ;
+const LikeSvg = ()=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$project$2f$RentalCar$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
+        width: 16,
+        height: 16,
+        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$project$2f$RentalCar$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("use", {
+            href: "/logoSvg.svg#Like"
+        }, void 0, false, {
+            fileName: "[project]/Desktop/project/RentalCar/components/CarCard/CarCard.tsx",
+            lineNumber: 12,
+            columnNumber: 5
+        }, ("TURBOPACK compile-time value", void 0))
+    }, void 0, false, {
+        fileName: "[project]/Desktop/project/RentalCar/components/CarCard/CarCard.tsx",
+        lineNumber: 11,
+        columnNumber: 3
+    }, ("TURBOPACK compile-time value", void 0));
+_c = LikeSvg;
+const LikeSvgActive = ()=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$project$2f$RentalCar$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
+        width: 16,
+        height: 16,
+        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$project$2f$RentalCar$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("use", {
+            href: "/logoSvg.svg#Like-blue"
+        }, void 0, false, {
+            fileName: "[project]/Desktop/project/RentalCar/components/CarCard/CarCard.tsx",
+            lineNumber: 18,
+            columnNumber: 5
+        }, ("TURBOPACK compile-time value", void 0))
+    }, void 0, false, {
+        fileName: "[project]/Desktop/project/RentalCar/components/CarCard/CarCard.tsx",
+        lineNumber: 17,
+        columnNumber: 3
+    }, ("TURBOPACK compile-time value", void 0));
+_c1 = LikeSvgActive;
 function CarCard({ car }) {
+    _s();
+    const [isFavorite, setIsFavorite] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$project$2f$RentalCar$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(false);
     const addressParts = car.address.split(",");
     const city = addressParts[1]?.trim();
     const country = addressParts[2]?.trim();
+    const toggleFavorite = ()=>{
+        setIsFavorite((prev)=>!prev);
+    };
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$project$2f$RentalCar$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
         className: __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$project$2f$RentalCar$2f$components$2f$CarCard$2f$CarCard$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].card,
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$project$2f$RentalCar$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$project$2f$RentalCar$2f$components$2f$CarCard$2f$CarCard$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].thumb,
-                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$project$2f$RentalCar$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$project$2f$RentalCar$2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                    src: car.img,
-                    alt: `${car.brand} ${car.model}`,
-                    fill: true,
-                    className: __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$project$2f$RentalCar$2f$components$2f$CarCard$2f$CarCard$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].image
-                }, void 0, false, {
-                    fileName: "[project]/Desktop/project/RentalCar/components/CarCard/CarCard.tsx",
-                    lineNumber: 17,
-                    columnNumber: 9
-                }, this)
-            }, void 0, false, {
+                children: [
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$project$2f$RentalCar$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$project$2f$RentalCar$2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                        src: car.img,
+                        alt: `${car.brand} ${car.model}`,
+                        fill: true,
+                        className: __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$project$2f$RentalCar$2f$components$2f$CarCard$2f$CarCard$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].image
+                    }, void 0, false, {
+                        fileName: "[project]/Desktop/project/RentalCar/components/CarCard/CarCard.tsx",
+                        lineNumber: 35,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$project$2f$RentalCar$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                        type: "button",
+                        className: __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$project$2f$RentalCar$2f$components$2f$CarCard$2f$CarCard$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].favorite,
+                        "aria-label": "Add to favorites",
+                        onClick: toggleFavorite,
+                        children: isFavorite ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$project$2f$RentalCar$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(LikeSvgActive, {}, void 0, false, {
+                            fileName: "[project]/Desktop/project/RentalCar/components/CarCard/CarCard.tsx",
+                            lineNumber: 47,
+                            columnNumber: 25
+                        }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$project$2f$RentalCar$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(LikeSvg, {}, void 0, false, {
+                            fileName: "[project]/Desktop/project/RentalCar/components/CarCard/CarCard.tsx",
+                            lineNumber: 47,
+                            columnNumber: 45
+                        }, this)
+                    }, void 0, false, {
+                        fileName: "[project]/Desktop/project/RentalCar/components/CarCard/CarCard.tsx",
+                        lineNumber: 41,
+                        columnNumber: 9
+                    }, this)
+                ]
+            }, void 0, true, {
                 fileName: "[project]/Desktop/project/RentalCar/components/CarCard/CarCard.tsx",
-                lineNumber: 16,
+                lineNumber: 34,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$project$2f$RentalCar$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -612,7 +674,7 @@ function CarCard({ car }) {
                                         children: car.model
                                     }, void 0, false, {
                                         fileName: "[project]/Desktop/project/RentalCar/components/CarCard/CarCard.tsx",
-                                        lineNumber: 28,
+                                        lineNumber: 55,
                                         columnNumber: 25
                                     }, this),
                                     ",",
@@ -621,7 +683,7 @@ function CarCard({ car }) {
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/Desktop/project/RentalCar/components/CarCard/CarCard.tsx",
-                                lineNumber: 27,
+                                lineNumber: 54,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$project$2f$RentalCar$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -632,13 +694,13 @@ function CarCard({ car }) {
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/Desktop/project/RentalCar/components/CarCard/CarCard.tsx",
-                                lineNumber: 31,
+                                lineNumber: 58,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/Desktop/project/RentalCar/components/CarCard/CarCard.tsx",
-                        lineNumber: 26,
+                        lineNumber: 53,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$project$2f$RentalCar$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -648,28 +710,28 @@ function CarCard({ car }) {
                                 children: city
                             }, void 0, false, {
                                 fileName: "[project]/Desktop/project/RentalCar/components/CarCard/CarCard.tsx",
-                                lineNumber: 35,
+                                lineNumber: 62,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$project$2f$RentalCar$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                 children: country
                             }, void 0, false, {
                                 fileName: "[project]/Desktop/project/RentalCar/components/CarCard/CarCard.tsx",
-                                lineNumber: 36,
+                                lineNumber: 63,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$project$2f$RentalCar$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                 children: car.rentalCompany
                             }, void 0, false, {
                                 fileName: "[project]/Desktop/project/RentalCar/components/CarCard/CarCard.tsx",
-                                lineNumber: 37,
+                                lineNumber: 64,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$project$2f$RentalCar$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                 children: car.type
                             }, void 0, false, {
                                 fileName: "[project]/Desktop/project/RentalCar/components/CarCard/CarCard.tsx",
-                                lineNumber: 38,
+                                lineNumber: 65,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$project$2f$RentalCar$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -679,20 +741,20 @@ function CarCard({ car }) {
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/Desktop/project/RentalCar/components/CarCard/CarCard.tsx",
-                                lineNumber: 39,
+                                lineNumber: 66,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$project$2f$RentalCar$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                 children: car.accessories[0]
                             }, void 0, false, {
                                 fileName: "[project]/Desktop/project/RentalCar/components/CarCard/CarCard.tsx",
-                                lineNumber: 40,
+                                lineNumber: 67,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/Desktop/project/RentalCar/components/CarCard/CarCard.tsx",
-                        lineNumber: 34,
+                        lineNumber: 61,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$project$2f$RentalCar$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -700,25 +762,28 @@ function CarCard({ car }) {
                         children: "Learn more"
                     }, void 0, false, {
                         fileName: "[project]/Desktop/project/RentalCar/components/CarCard/CarCard.tsx",
-                        lineNumber: 43,
+                        lineNumber: 70,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/Desktop/project/RentalCar/components/CarCard/CarCard.tsx",
-                lineNumber: 25,
+                lineNumber: 52,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/Desktop/project/RentalCar/components/CarCard/CarCard.tsx",
-        lineNumber: 15,
+        lineNumber: 33,
         columnNumber: 5
     }, this);
 }
-_c = CarCard;
-var _c;
-__turbopack_context__.k.register(_c, "CarCard");
+_s(CarCard, "k950Z1JpPS3WYtE75BCawi6VGEM=");
+_c2 = CarCard;
+var _c, _c1, _c2;
+__turbopack_context__.k.register(_c, "LikeSvg");
+__turbopack_context__.k.register(_c1, "LikeSvgActive");
+__turbopack_context__.k.register(_c2, "CarCard");
 if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
     __turbopack_context__.k.registerExports(__turbopack_context__.m, globalThis.$RefreshHelpers$);
 }

@@ -1,6 +1,6 @@
 .header {
-  background: #dadde1;
-  border-bottom: 1px solid #dadde1;
+  background: var(--badges);
+  border-bottom: 1px solid var(--badges);
   padding: 24px 120px;
   height: 68px;
 }

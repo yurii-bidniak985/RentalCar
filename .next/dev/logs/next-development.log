@@ -1,46 +1,149 @@
-[00:00:00.783] Server  LOG     ✓ Ready in 566ms
-[00:00:03.343] Browser WARN    Image with src "https://ac.goit.global/car-rental-task/9584-ai.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+[00:00:00.923] Server  LOG     ✓ Ready in 704ms
+[00:02:23.613] Server  LOG     ✓ Compiled in 44ms
+[00:02:41.123] Server  LOG     ✓ Compiled in 7ms
+[00:11:56.197] Server  LOG     ✓ Compiled in 96ms
+[00:11:56.948] Browser WARN    Image with src "https://ac.goit.global/car-rental-task/9586-ai.jpg" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
+[00:11:56.948] Browser WARN    Image with src "https://ac.goit.global/car-rental-task/9584-ai.jpg" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
+[00:11:56.948] Browser WARN    Image with src "https://ac.goit.global/car-rental-task/9582-ai.jpg" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
+[00:11:56.948] Browser WARN    Image with src "https://ac.goit.global/car-rental-task/9587-ai.jpg" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
+[00:11:56.948] Browser WARN    Image with src "https://ac.goit.global/car-rental-task/9590-ai.jpg" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
+[00:11:56.949] Browser WARN    Image with src "https://ac.goit.global/car-rental-task/9593-ai.jpg" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
+[00:11:56.949] Browser WARN    Image with src "https://ac.goit.global/car-rental-task/9591-ai.jpg" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
+[00:11:56.949] Browser WARN    Image with src "https://ac.goit.global/car-rental-task/9596-ai.jpg" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
+[00:11:56.949] Browser WARN    Image with src "https://ac.goit.global/car-rental-task/9597-ai.jpg" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
+[00:11:56.949] Browser WARN    Image with src "https://ac.goit.global/car-rental-task/9598-ai.jpg" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
+[00:11:56.949] Browser WARN    Image with src "https://ac.goit.global/car-rental-task/9583-ai.jpg" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
+[00:11:56.949] Browser WARN    Image with src "https://ac.goit.global/car-rental-task/9606-ai.jpg" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
+[00:12:12.986] Browser WARN    Image with src "https://ac.goit.global/car-rental-task/9582-ai.jpg" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
+[00:12:12.986] Browser WARN    Image with src "https://ac.goit.global/car-rental-task/9584-ai.jpg" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
+[00:12:12.986] Browser WARN    Image with src "https://ac.goit.global/car-rental-task/9586-ai.jpg" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
+[00:12:12.986] Browser WARN    Image with src "https://ac.goit.global/car-rental-task/9587-ai.jpg" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
+[00:12:12.986] Browser WARN    Image with src "https://ac.goit.global/car-rental-task/9590-ai.jpg" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
+[00:12:12.986] Browser WARN    Image with src "https://ac.goit.global/car-rental-task/9591-ai.jpg" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
+[00:12:12.986] Browser WARN    Image with src "https://ac.goit.global/car-rental-task/9593-ai.jpg" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
+[00:12:12.986] Browser WARN    Image with src "https://ac.goit.global/car-rental-task/9596-ai.jpg" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
+[00:12:12.986] Browser WARN    Image with src "https://ac.goit.global/car-rental-task/9597-ai.jpg" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
+[00:12:12.986] Browser WARN    Image with src "https://ac.goit.global/car-rental-task/9598-ai.jpg" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
+[00:12:12.986] Browser WARN    Image with src "https://ac.goit.global/car-rental-task/9583-ai.jpg" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
+[00:12:12.986] Browser WARN    Image with src "https://ac.goit.global/car-rental-task/9606-ai.jpg" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
+[00:12:12.986] Browser WARN    Image with src "https://ac.goit.global/car-rental-task/9582-ai.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
 Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
-[00:04:29.507] Server  LOG     ✓ Compiled in 31ms
-[00:05:02.787] Server  LOG     ✓ Compiled in 2ms
-[00:05:27.954] Server  LOG     ✓ Compiled in 7ms
-[00:09:02.677] Server  LOG     ✓ Compiled in 40ms
-[00:10:35.883] Server  LOG     ✓ Compiled in 26ms
-[00:10:45.522] Server  LOG     ✓ Compiled in 4ms
-[00:13:36.612] Server  LOG     ✓ Compiled in 14ms
-[00:13:56.193] Server  LOG     ✓ Compiled in 4ms
-[00:14:56.734] Server  LOG     ✓ Compiled in 11ms
-[00:15:25.824] Server  LOG     ✓ Compiled in 6ms
-[00:16:05.074] Server  LOG     ✓ Compiled in 6ms
-[00:17:45.512] Server  LOG     ✓ Compiled in 2ms
-[00:19:34.777] Server  LOG     ✓ Compiled in 9ms
-[00:19:50.367] Server  LOG     ✓ Compiled in 2ms
-[00:20:01.818] Server  LOG     ✓ Compiled in 2ms
-[00:21:55.903] Server  LOG     ✓ Compiled in 20ms
-[00:22:25.122] Server  LOG     ✓ Compiled in 2ms
-[00:22:48.898] Server  LOG     ✓ Compiled in 4ms
-[00:23:30.214] Server  LOG     ✓ Compiled in 5ms
-[00:23:41.573] Server  LOG     ✓ Compiled in 8ms
-[00:24:29.452] Server  LOG     ✓ Compiled in 4ms
-[00:25:08.737] Server  LOG     ✓ Compiled in 4ms
-[00:26:26.284] Server  LOG     ✓ Compiled in 19ms
-[00:26:29.810] Browser WARN    Image with src "https://ac.goit.global/car-rental-task/9582-ai.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+[00:13:46.950] Server  LOG     ✓ Compiled in 46ms
+[00:13:49.750] Browser WARN    Image with src "https://ac.goit.global/car-rental-task/9582-ai.jpg" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
+[00:13:49.750] Browser WARN    Image with src "https://ac.goit.global/car-rental-task/9584-ai.jpg" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
+[00:13:49.750] Browser WARN    Image with src "https://ac.goit.global/car-rental-task/9586-ai.jpg" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
+[00:13:49.750] Browser WARN    Image with src "https://ac.goit.global/car-rental-task/9587-ai.jpg" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
+[00:13:49.750] Browser WARN    Image with src "https://ac.goit.global/car-rental-task/9590-ai.jpg" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
+[00:13:49.750] Browser WARN    Image with src "https://ac.goit.global/car-rental-task/9591-ai.jpg" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
+[00:13:49.750] Browser WARN    Image with src "https://ac.goit.global/car-rental-task/9593-ai.jpg" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
+[00:13:49.750] Browser WARN    Image with src "https://ac.goit.global/car-rental-task/9596-ai.jpg" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
+[00:13:49.750] Browser WARN    Image with src "https://ac.goit.global/car-rental-task/9597-ai.jpg" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
+[00:13:49.750] Browser WARN    Image with src "https://ac.goit.global/car-rental-task/9598-ai.jpg" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
+[00:13:49.750] Browser WARN    Image with src "https://ac.goit.global/car-rental-task/9583-ai.jpg" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
+[00:13:49.750] Browser WARN    Image with src "https://ac.goit.global/car-rental-task/9606-ai.jpg" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
+[00:13:49.750] Browser WARN    Image with src "https://ac.goit.global/car-rental-task/9582-ai.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
 Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
-[00:28:38.805] Server  LOG     ✓ Compiled in 9ms
-[00:28:51.449] Server  LOG     ✓ Compiled in 1ms
-[00:29:40.614] Server  LOG     ✓ Compiled in 4ms
-[00:30:10.231] Server  LOG     ✓ Compiled in 3ms
-[00:31:16.882] Server  LOG     ✓ Compiled in 6ms
-[00:32:17.475] Server  LOG     ✓ Compiled in 5ms
-[00:33:48.736] Server  LOG     ✓ Compiled in 4ms
-[00:33:58.348] Server  LOG     ✓ Compiled in 3ms
-[00:34:41.215] Server  LOG     ✓ Compiled in 4ms
-[00:34:57.497] Server  LOG     ✓ Compiled in 4ms
-[00:35:10.969] Server  LOG     ✓ Compiled in 2ms
-[00:36:23.226] Server  LOG     ✓ Compiled in 2ms
-[00:36:45.820] Server  LOG     ✓ Compiled in 2ms
-[00:36:56.681] Server  LOG     ✓ Compiled in 2ms
-[00:37:25.504] Server  LOG     ✓ Compiled in 2ms
-[00:39:01.766] Server  LOG     ✓ Compiled in 8ms
-[00:40:06.554] Server  LOG     ✓ Compiled in 8ms
-[00:41:23.664] Server  LOG     ✓ Compiled in 11ms
+[00:17:55.410] Server  LOG     ✓ Compiled in 56ms
+[00:17:56.301] Browser ERROR   An empty string ("") was passed to the %s attribute. To fix this, either do not render the element at all or pass null to %s instead of an empty string. href href
+[00:17:56.301] Browser ERROR   An empty string ("") was passed to the %s attribute. To fix this, either do not render the element at all or pass null to %s instead of an empty string. href href
+[00:17:56.301] Browser ERROR   An empty string ("") was passed to the %s attribute. To fix this, either do not render the element at all or pass null to %s instead of an empty string. href href
+[00:17:56.301] Browser ERROR   An empty string ("") was passed to the %s attribute. To fix this, either do not render the element at all or pass null to %s instead of an empty string. href href
+[00:17:56.301] Browser ERROR   An empty string ("") was passed to the %s attribute. To fix this, either do not render the element at all or pass null to %s instead of an empty string. href href
+[00:17:56.301] Browser ERROR   An empty string ("") was passed to the %s attribute. To fix this, either do not render the element at all or pass null to %s instead of an empty string. href href
+[00:17:56.301] Browser ERROR   An empty string ("") was passed to the %s attribute. To fix this, either do not render the element at all or pass null to %s instead of an empty string. href href
+[00:17:56.301] Browser ERROR   An empty string ("") was passed to the %s attribute. To fix this, either do not render the element at all or pass null to %s instead of an empty string. href href
+[00:17:56.301] Browser ERROR   An empty string ("") was passed to the %s attribute. To fix this, either do not render the element at all or pass null to %s instead of an empty string. href href
+[00:17:56.301] Browser ERROR   An empty string ("") was passed to the %s attribute. To fix this, either do not render the element at all or pass null to %s instead of an empty string. href href
+[00:17:56.301] Browser ERROR   An empty string ("") was passed to the %s attribute. To fix this, either do not render the element at all or pass null to %s instead of an empty string. href href
+[00:17:56.301] Browser ERROR   An empty string ("") was passed to the %s attribute. To fix this, either do not render the element at all or pass null to %s instead of an empty string. href href
+[00:18:31.714] Server  LOG     ✓ Compiled in 6ms
+[00:18:53.693] Server  LOG     ✓ Compiled in 6ms
+[00:19:02.917] Browser WARN    Image with src "https://ac.goit.global/car-rental-task/9582-ai.jpg" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
+[00:19:02.917] Browser WARN    Image with src "https://ac.goit.global/car-rental-task/9584-ai.jpg" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
+[00:19:02.917] Browser WARN    Image with src "https://ac.goit.global/car-rental-task/9586-ai.jpg" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
+[00:19:02.917] Browser WARN    Image with src "https://ac.goit.global/car-rental-task/9587-ai.jpg" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
+[00:19:02.917] Browser WARN    Image with src "https://ac.goit.global/car-rental-task/9590-ai.jpg" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
+[00:19:02.917] Browser WARN    Image with src "https://ac.goit.global/car-rental-task/9591-ai.jpg" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
+[00:19:02.917] Browser WARN    Image with src "https://ac.goit.global/car-rental-task/9593-ai.jpg" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
+[00:19:02.917] Browser WARN    Image with src "https://ac.goit.global/car-rental-task/9596-ai.jpg" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
+[00:19:02.917] Browser WARN    Image with src "https://ac.goit.global/car-rental-task/9597-ai.jpg" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
+[00:19:02.917] Browser WARN    Image with src "https://ac.goit.global/car-rental-task/9598-ai.jpg" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
+[00:19:02.917] Browser WARN    Image with src "https://ac.goit.global/car-rental-task/9583-ai.jpg" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
+[00:19:02.917] Browser WARN    Image with src "https://ac.goit.global/car-rental-task/9606-ai.jpg" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
+[00:19:02.917] Browser WARN    Image with src "https://ac.goit.global/car-rental-task/9582-ai.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:19:45.842] Server  LOG     ✓ Compiled in 28ms
+[00:21:46.837] Server  LOG     ✓ Compiled in 14ms
+[00:22:43.042] Server  LOG     ✓ Compiled in 4ms
+[00:24:43.016] Server  LOG     ✓ Compiled in 39ms
+[00:25:14.469] Server  LOG     ✓ Compiled in 2ms
+[00:25:54.905] Server  LOG     ✓ Compiled in 11ms
+[00:25:59.137] Server  LOG     ✓ Compiled in 7ms
+[00:38:03.807] Server  LOG     ✓ Compiled in 19ms
+[00:38:11.249] Server  LOG     ✓ Compiled in 5ms
+[00:40:25.820] Server  LOG     ✓ Compiled in 113ms
+[00:40:26.063] Browser ERROR   uncaughtError: TypeError: Cannot read properties of undefined (reading 'map')
+[00:40:32.811] Server  LOG     ✓ Compiled in 19ms
+[00:40:32.837] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:40:34.447] Browser WARN    Image with src "https://ac.goit.global/car-rental-task/9582-ai.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:43:32.526] Server  LOG     ✓ Compiled in 36ms
+[00:43:32.963] Browser ERROR   uncaughtError: ReferenceError: isFavorite is not defined
+[00:45:40.097] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:45:40.121] Server  LOG     ✓ Compiled in 25ms
+[00:45:51.608] Server  LOG     ✓ Compiled in 57ms
+[00:45:52.301] Browser ERROR   uncaughtError: TypeError: Cannot read properties of undefined (reading 'map')
+[00:46:47.806] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:46:47.833] Server  LOG     ✓ Compiled in 35ms
+[00:46:48.044] Server  ERROR   ⨯ TypeError: Cannot read properties of undefined (reading 'map')
+[00:46:49.030] Browser ERROR   uncaughtError: TypeError: Cannot read properties of undefined (reading 'map')
+[00:47:57.145] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:47:57.306] Server  LOG     ✓ Compiled in 14ms
+[00:47:57.397] Server  ERROR   ⨯ TypeError: Cannot read properties of undefined (reading 'length')
+[00:47:58.180] Browser ERROR   uncaughtError: TypeError: Cannot read properties of undefined (reading 'length')
+[00:48:33.208] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:48:33.222] Server  LOG     ✓ Compiled in 75ms
+[00:49:22.176] Server  LOG     ✓ Compiled in 24ms
+[00:49:39.591] Server  LOG     ✓ Compiled in 40ms
+[00:49:40.305] Browser ERROR   uncaughtError: TypeError: Cannot read properties of undefined (reading 'map')
+[00:49:49.171] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:49:49.279] Server  LOG     ✓ Compiled in 12ms
+[00:49:49.359] Server  ERROR   ⨯ TypeError: Cannot read properties of undefined (reading 'map')
+[00:49:49.365] Browser ERROR   uncaughtError: TypeError: Cannot read properties of undefined (reading 'map')
+[00:49:49.574] Browser ERROR   uncaughtError: TypeError: Cannot read properties of undefined (reading 'map')
+[00:49:56.604] Server  LOG     ✓ Compiled in 20ms
+[00:49:56.604] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:49:57.479] Browser WARN    Image with src "https://ac.goit.global/car-rental-task/9582-ai.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:51:24.812] Server  LOG     ✓ Compiled in 12ms
+[00:51:31.470] Server  LOG     ✓ Compiled in 1ms
+[00:51:37.492] Server  LOG     ✓ Compiled in 3ms
+[00:51:44.605] Server  LOG     ✓ Compiled in 4ms
+[00:51:50.367] Server  LOG     ✓ Compiled in 1ms
+[00:51:57.931] Server  LOG     ✓ Compiled in 1ms
+[15:49:22.920] Server  LOG     ✓ Compiled in 89ms
+[15:50:25.682] Server  LOG     ✓ Compiled in 10ms
+[15:51:16.691] Server  LOG     ✓ Compiled in 11ms
+[15:51:17.064] Browser ERROR   uncaughtError: ReferenceError: isFavorite is not defined
+[15:51:56.571] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[15:51:56.600] Server  LOG     ✓ Compiled in 50ms
+[15:51:57.641] Browser WARN    Image with src "https://ac.goit.global/car-rental-task/9587-ai.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[15:53:37.034] Server  LOG     ✓ Compiled in 17ms
+[15:54:54.094] Server  LOG     ✓ Compiled in 19ms
+[15:54:55.065] Browser ERROR   uncaughtError: ReferenceError: toggleFavorite is not defined
+[15:55:22.651] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[15:55:22.784] Server  LOG     ✓ Compiled in 11ms
+[15:55:24.341] Browser WARN    Image with src "https://ac.goit.global/car-rental-task/9582-ai.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[15:56:14.789] Server  LOG     ✓ Compiled in 20ms
+[15:56:34.024] Server  LOG     ✓ Compiled in 2ms
+[15:56:59.173] Server  LOG     ✓ Compiled in 13ms
+[15:57:13.840] Browser WARN    Image with src "https://ac.goit.global/car-rental-task/9582-ai.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[15:57:51.991] Browser WARN    Image with src "https://ac.goit.global/car-rental-task/9582-ai.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[15:58:14.195] Browser WARN    Image with src "https://ac.goit.global/car-rental-task/9582-ai.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[15:59:04.527] Browser WARN    Image with src "https://ac.goit.global/car-rental-task/9582-ai.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading

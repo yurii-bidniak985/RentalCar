@@ -94,4 +94,14 @@
   background-color: #0b44cd;
 }
 
+.CarCard-module__AvzbIa__favorite {
+  cursor: pointer;
+  background: none;
+  border: none;
+  font-size: 16px;
+  position: absolute;
+  top: 14px;
+  right: 14px;
+}
+
 /*# sourceMappingURL=Desktop_project_RentalCar_components_CarCard_CarCard_module_css_bad6b30c._.single.css.map*/

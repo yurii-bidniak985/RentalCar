@@ -92,3 +92,13 @@
 .btn:hover {
   background-color: #0b44cd;
 }
+
+.favorite {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  background: transparent;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+}

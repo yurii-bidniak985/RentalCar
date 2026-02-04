@@ -178,6 +178,16 @@
   background-color: #0b44cd;
 }
 
+.CarCard-module__AvzbIa__favorite {
+  cursor: pointer;
+  background: none;
+  border: none;
+  font-size: 16px;
+  position: absolute;
+  top: 14px;
+  right: 14px;
+}
+
 /* [project]/Desktop/project/RentalCar/app/catalog/Catalog.module.css [app-client] (css) */
 .Catalog-module__KhAaVa__container {
   max-width: 1440px;
