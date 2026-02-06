@@ -58,6 +58,8 @@ export const useCarsStore = create()(
             ? state.favorites.filter((id: string) => id !== carId)
             : [...state.favorites, carId],
         })),
+
+      isFavorite: (carId: string) => get().favorites.includes(carId),
     }),
     {
       name: "rental-cars-storage",

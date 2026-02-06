@@ -3,6 +3,9 @@
 import { useEffect, useState } from "react";
 import { useParams } from "next/navigation";
 import axios from "axios";
+import toast, { Toaster } from "react-hot-toast";
+import DatePicker from "react-datepicker";
+import "react-datepicker/dist/react-datepicker.css";
 import css from "./Details.module.css";
 
 const Icon = ({ id }: { id: string }) => (
@@ -14,6 +17,7 @@ const Icon = ({ id }: { id: string }) => (
 export default function CarDetailsPage() {
   const { id } = useParams();
   const [car, setCar] = useState<any>(null);
+  const [startDate, setStartDate] = useState<Date | null>(null);
 
   useEffect(() => {
     axios
@@ -24,10 +28,28 @@ export default function CarDetailsPage() {
       .catch((err) => console.error(err));
   }, [id]);
 
+  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+
+    toast.success("Success! Your booking request has been sent.", {
+      duration: 4000,
+      position: "top-center",
+      style: {
+        background: "#3470ff",
+        color: "#fff",
+        borderRadius: "12px",
+      },
+    });
+
+    e.currentTarget.reset();
+    setStartDate(null);
+  };
+
   if (!car) return <div className={css.loader}>Loading...</div>;
 
   return (
     <main className={css.container}>
+      <Toaster />
       <div className={css.wrapper}>
         <div className={css.leftCol}>
           <img src={car.img} alt={car.brand} className={css.mainImg} />
@@ -37,14 +59,21 @@ export default function CarDetailsPage() {
             <p className={css.bookSubtitle}>
               Stay connected! We are always ready to help you.
             </p>
-            <form className={css.form} onSubmit={(e) => e.preventDefault()}>
+            <form className={css.form} onSubmit={handleSubmit}>
               <input type="text" placeholder="Name*" required />
               <input type="email" placeholder="Email*" required />
-              <input
-                type="text"
-                placeholder="Booking date"
-                onFocus={(e) => (e.target.type = "date")}
-              />
+
+              <div className={css.datePickerWrapper}>
+                <DatePicker
+                  selected={startDate}
+                  onChange={(date: Date | null) => setStartDate(date)}
+                  placeholderText="Booking date"
+                  dateFormat="dd/MM/yyyy"
+                  className={css.dateInput}
+                  minDate={new Date()}
+                />
+              </div>
+
               <textarea
                 placeholder="Comment"
                 className={css.textarea}

@@ -1,7 +1,7 @@
 .container {
   max-width: 1440px;
   margin: 0 auto;
-  padding: 78px 120px 104px 120px;
+  padding: 78px 120px 0 120px;
   color: var(--main);
 }
 
@@ -198,11 +198,11 @@
 }
 
 .specsList li span {
- color: black;
- font-family: var(--font-family);
-font-weight: 500;
-font-size: 16px;
-line-height: 125%;
+  color: black;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 125%;
 }
 
 .specsList li strong {
@@ -225,20 +225,20 @@ line-height: 125%;
   flex-shrink: 0;
   margin-right: 8px;
   fill: none;
-  stroke: currentColor; 
+  stroke: currentColor;
 }
 
 .conditionItem,
 .tag {
   display: flex;
-  flex-direction: row; 
+  flex-direction: row;
   align-items: center;
 }
 
 .specsList li {
   display: flex;
-  align-items: center; 
-  justify-content: flex-start; 
+  align-items: center;
+  justify-content: flex-start;
   gap: 4px;
 }
 
@@ -251,4 +251,108 @@ line-height: 125%;
 .location {
   display: flex;
   align-items: center;
+}
+
+/* ===================CALENDAR================= */
+
+:global(.react-datepicker) {
+  width: 276px !important;
+  height: 284px !important;
+  background-color: #ffffff !important;
+  border: 1px solid rgba(52, 112, 255, 0.5) !important;
+  border-radius: 14px !important;
+  font-family: "Inter", sans-serif !important;
+  display: flex !important;
+  flex-direction: column !important;
+  overflow: hidden !important;
+  box-shadow: 0px 4px 36px rgba(0, 0, 0, 0.05) !important;
+}
+
+:global(.react-datepicker__header) {
+  background-color: #ffffff !important;
+  border-bottom: none !important;
+  padding: 18px 18px 0 18px !important;
+}
+
+:global(.react-datepicker__current-month) {
+  font-weight: 600 !important;
+  font-size: 16px !important;
+  line-height: 1.25 !important;
+  color: #121417 !important;
+  margin-bottom: 16px !important;
+}
+
+:global(.react-datepicker__day-names) {
+  display: flex !important;
+  justify-content: space-between !important;
+  border-bottom: 1px solid rgba(52, 112, 255, 0.4) !important;
+  padding-bottom: 8px !important;
+  margin-bottom: 12px !important;
+}
+
+:global(.react-datepicker__day-name) {
+  color: rgba(18, 20, 23, 0.5) !important;
+  font-weight: 500 !important;
+  font-size: 12px !important;
+  text-transform: uppercase !important;
+  width: 32px !important;
+  margin: 0 !important;
+  text-align: center !important;
+}
+
+:global(.react-datepicker__month) {
+  padding: 0 18px 18px 18px !important;
+  margin: 0 !important;
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 6px !important;
+}
+
+:global(.react-datepicker__week) {
+  display: flex !important;
+  justify-content: space-between !important;
+}
+
+:global(.react-datepicker__day) {
+  width: 32px !important;
+  height: 32px !important;
+  line-height: 32px !important;
+  font-size: 14px !important;
+  margin: 0 !important;
+  color: #121417 !important;
+  border-radius: 50% !important;
+  transition: all 0.2s ease !important;
+}
+
+:global(.react-datepicker__day--selected),
+:global(.react-datepicker__day--keyboard-selected) {
+  background-color: #3470ff !important;
+  color: #ffffff !important;
+}
+
+:global(.react-datepicker__day--outside-month) {
+  color: rgba(18, 20, 23, 0.2) !important;
+}
+
+:global(.react-datepicker__day:hover) {
+  background-color: rgba(52, 112, 255, 0.1) !important;
+}
+
+:global(.react-datepicker__navigation) {
+  top: 15px !important;
+}
+
+:global(.react-datepicker__navigation--previous) {
+  left: 12px !important;
+}
+
+:global(.react-datepicker__navigation--next) {
+  right: 12px !important;
+}
+
+:global(.react-datepicker__navigation-icon::before) {
+  border-color: #3470ff !important;
+  border-width: 2px 2px 0 0 !important;
+  height: 8px !important;
+  width: 8px !important;
 }

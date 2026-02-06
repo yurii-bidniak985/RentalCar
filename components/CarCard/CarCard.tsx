@@ -1,8 +1,8 @@
 import Image from "next/image";
 import { Car } from "@/types/cars";
 import css from "./CarCard.module.css";
-import { useState } from "react";
 import Link from "next/link";
+import { useCarsStore } from "@/store/useCarsStore";
 
 interface CarCardProps {
   car: Car;
@@ -21,13 +21,16 @@ const LikeSvgActive = () => (
 );
 
 export default function CarCard({ car }: CarCardProps) {
-  const [isFavorite, setIsFavorite] = useState(false);
+  const { favorites, toggleFavorite } = useCarsStore((state: any) => state);
+
+  const isFavorite = favorites.includes(car.id);
+
   const addressParts = car.address.split(",");
   const city = addressParts[1]?.trim();
   const country = addressParts[2]?.trim();
 
-  const toggleFavorite = () => {
-    setIsFavorite((prev) => !prev);
+  const handleFavoriteClick = () => {
+    toggleFavorite(car.id);
   };
 
   return (
@@ -43,7 +46,7 @@ export default function CarCard({ car }: CarCardProps) {
           type="button"
           className={css.favorite}
           aria-label="Add to favorites"
-          onClick={toggleFavorite}
+          onClick={handleFavoriteClick}
         >
           {isFavorite ? <LikeSvgActive /> : <LikeSvg />}
         </button>
@@ -63,7 +66,7 @@ export default function CarCard({ car }: CarCardProps) {
           <span>{country}</span>
           <span>{car.rentalCompany}</span>
           <span>{car.type}</span>
-          <span>{car.mileage.toLocaleString()} km</span>
+          <span>{car.mileage.toLocaleString("ru-RU")} km</span>
           <span>{car.accessories[0]}</span>
         </div>
         <Link href={`/catalog/${car.id}`} className={css.learnMoreBtn}>
