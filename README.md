@@ -1,36 +1,36 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Rental Car Project
 
-## Getting Started
+## About this project
 
-First, run the development server:
+I developed this web application for a company called "RentalCar". The main goal of the project is to provide a user-friendly platform where customers can easily browse available cars, see technical details, and make a booking online. It connects to a real backend API to manage car data and rental requests.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Key Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Home Page**: Features a hero banner with a clear call-to-action to explore the catalog.
+- **Car Catalog**: A grid view of cars with a "Load More" button to load additional vehicles using backend pagination.
+- **Smart Filtering**: Users can filter cars by brand, rental price, and mileage. All filters work on the backend side to ensure data accuracy.
+- **Favorites System**: You can add cars to a favorites list by clicking the heart icon. This list is saved in local storage, so it stays there even after refreshing the page.
+- **Detailed Car Pages**: Each car has a dedicated page with detailed descriptions, a list of accessories, and a booking form.
+- **Booking Form**: A fully functional form with a custom calendar to pick rental dates. It shows a success notification when a car is "rented".
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Tech Stack
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Framework**: Next.js (App Router).
+- **Language**: TypeScript.
+- **State Management**: Zustand with persistence for favorites.
+- **HTTP Client**: Axios for fetching data from the API.
+- **Styles**: CSS Modules.
+- **Libraries**: React Datepicker (for booking) and React Hot Toast (for alerts).
 
-## Learn More
+## UI/UX Details
 
-To learn more about Next.js, take a look at the following resources:
+- **Formatting**: Car mileage is displayed with space separators (e.g., 5 000 km) for better readability.
+- **Typography**: I used Manrope and Inter fonts to match the original design layout.
+- **Responsiveness**: The project is optimized for desktop view as per the requirements.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## How to Install and Run
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. Clone the repository to your local machine.
+2. Run `npm install` to download all necessary packages.
+3. Start the development server using `npm run dev`.
+4. Open your browser and go to `http://localhost:3000`.
